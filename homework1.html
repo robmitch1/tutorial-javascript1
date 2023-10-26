@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework1</title>
+    <script src="hello.js"></script>
+  </head>
+  <body>
+    <h1>Homework One</h1>
+
+    <p>Click the button to demonstrate the prompt box.</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="demo"></p>
+
+    <script>
+      function myFunction() {
+        let person = prompt('Please enter your name', 'John Doe');
+        if (person != null) {
+          document.getElementById('demo').innerHTML =
+            'Hello ' + person + '! How are you today?';
+        }
+      }
+    </script>
+  </body>
+</html>
