@@ -1,1 +1,0 @@
-alert('Remember your assignment');
