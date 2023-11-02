@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite Motto</title>
+  </head>
+  <body>
+    <script>
+      function getMotto() {
+        return prompt('Please enter your motto.');
+      }
+      function getCount() {
+        const input = prompt('How often would you like to read your motto?');
+        return parseFloat(input);
+      }
+      function printMotto(motto, count) {
+        for (let i = 0; i < count; i++) {
+          console.log(motto);
+        }
+      }
+
+      const motto = getMotto();
+      const count = getCount();
+    </script>
+
+    <script></script>
+  </body>
+</html>
